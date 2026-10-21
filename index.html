@@ -122,7 +122,7 @@ const TYPES={book:"Book",paper:"Research paper",article:"Magazine article"};
 const J="World Journal of Advanced Research and Reviews";
 const WORKS=[
  {id:"divine-comedy",type:"book",short:"The Divine Comedy in People Management",title:"The Divine Comedy in People Management",
-  venue:"ICERT, 2026",pages:230,year:2026,cover:"covers/divine-comedy.jpg",
+  venue:"ICERT, 2026",pages:230,year:2026,cover:"Covers/divine-comedy.jpg",
   desc:"Reads people management through Dante Alighieri's Divine Comedy, for leaders who want to guide people, elevate purpose and pursue excellence.",pdf:null,doi:null},
  {id:"ai-culture",type:"paper",short:"AI and Culture in the Gulf",
   title:"The Future Impact of Artificial Intelligence and Digital Transformation on Organizational Culture",
@@ -162,7 +162,7 @@ const WORKS=[
   desc:"Inspired by the Godfather trilogy, a guide to power, loyalty, influence and judgment for the HR executive who intends to shape the organization rather than serve it. Foundations, six pillars, five cases and a closing code.",pdf:null,doi:null}
 ];
 
-WORKS.forEach(w=>{w.cover=w.cover||"covers/"+w.id+".jpg"});
+WORKS.forEach(w=>{w.cover=w.cover||"Covers/"+w.id+".jpg"});
 const $=s=>document.querySelector(s);
 let filter="all",query="",selected=WORKS[0].id;
 
