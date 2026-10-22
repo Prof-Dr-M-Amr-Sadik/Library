@@ -104,7 +104,7 @@ footer{margin-top:56px;color:var(--muted);font-size:.88rem}
     <div class="intro">
     <h1>Prof. Dr. M. Amr Sadik</h1>
     <p class="lede">For decades, Prof. Dr. M. Amr Sadik has worked where people and strategy meet: in executive suites across the Middle East and the Gulf, in lecture halls from Paris to Latvia, and in the journals and magazines that shape how leaders think about work.</p>
-    <p class="lede sub">This library gathers that work in one place: research on AI, culture and rebuilding after crisis; one book that reads leadership through Dante and another that reads it through the Godfather; and a long line of articles that asked HR to stop supporting the organization and start shaping it. Every spine on this shelf is a question he asked about how we work.</p>
+    <p class="lede sub">This library gathers that work in one place: research on AI, culture and rebuilding after crisis; six books, among them readings of HR through Sun Tzu, Dante and the Godfather; and a long line of articles that asked HR to stop supporting the organization and start shaping it. Every spine on this shelf is a question he asked about how we work.</p>
     </div>
     </div>
     <ul class="creds">
@@ -136,53 +136,9 @@ footer{margin-top:56px;color:var(--muted);font-size:.88rem}
 
 <script>
 const TYPES={book:"Book",paper:"Research paper",article:"Magazine article"};
-const J="World Journal of Advanced Research and Reviews";
-const WORKS=[
- {id:"divine-comedy",date:"2026-01-01",lines:["The Divine Comedy","in People Management"],type:"book",short:"The Divine Comedy in People Management",title:"The Divine Comedy in People Management",
-  venue:"ICERT, 2026",pages:230,year:2026,cover:"covers/divine-comedy.jpg",
-  desc:"Reads people management through Dante Alighieri's Divine Comedy, for leaders who want to guide people, elevate purpose and pursue excellence.",pdf:null,doi:null},
- {id:"ai-culture",date:"2026-08-20",type:"paper",short:"AI and Culture in the Gulf",
-  title:"The Future Impact of Artificial Intelligence and Digital Transformation on Organizational Culture",
-  venue:J+", 31(02), pp. 985–995",pages:11,year:2026,
-  desc:"How AI and digital transformation reshape organizational culture, with evidence from Saudi Arabia, the UAE and the wider Gulf. Argues that cultural change is a prerequisite of successful AI adoption, not a by-product.",
-  pdf:"pdfs/WJARR-2026-2163.pdf",doi:"https://doi.org/10.30574/wjarr.2026.31.2.2163"},
- {id:"post-crisis-hr",date:"2026-08-25",type:"paper",short:"HR in the Post-Crisis Middle East",
-  title:"Critical Roles of Human Resource Management in Transforming and Adapting Organizations in the Post-Crisis Middle East",
-  venue:J+", 31(02), pp. 1167–1176",pages:10,year:2026,
-  desc:"Sets out seventeen roles HR must play when organizations are rebuilt after conflict and disruption, and proposes the HR RESET framework, drawing on Syria, Lebanon, Iraq and the Gulf states.",
-  pdf:"pdfs/WJARR-2026-2210.pdf",doi:"https://doi.org/10.30574/wjarr.2026.31.2.2210"},
- {id:"jed",date:"2026-09-15",type:"paper",short:"Job Effectiveness Description",
-  title:"The Job Effectiveness Description: A Conceptual Framework Integrating Key Behavioral, Operational, and Performance Indicators into the Traditional Job Description",
-  venue:J+", 31(03), pp. 953–958",pages:6,year:2026,
-  desc:"Proposes a job description that carries three kinds of indicators in one document: how the person acts, how the work runs, and what results it produces.",
-  pdf:"pdfs/WJARR-2026-2281.pdf",doi:"https://doi.org/10.30574/wjarr.2026.31.3.2281"},
- {id:"sacred-text",date:"2026-09-22",type:"paper",short:"From Sacred Text to Statute",
-  title:"From Sacred Text to Statute: Human Resource Management Principles Across Religious Traditions, Cultural Norms, and the Code of Hammurabi",
-  venue:J+", 31(03), pp. 1430–1436",pages:7,year:2026,
-  desc:"Compares people-management principles in the Code of Hammurabi and in Jewish, Christian, Islamic, Buddhist, Indic and Chinese traditions across seven dimensions, and finds a shared ethical core.",
-  pdf:"pdfs/WJARR-2026-2459.pdf",doi:"https://doi.org/10.30574/wjarr.2026.31.3.2459"},
- {id:"naked-truth",date:"2012-01-01",type:"article",short:"Naked Truth, Part One",
-  title:"Naked Truth About HR Revealed, Part One: Do We Really Hate HR?",
-  venue:"HR Future, January 2012, pp. 16–17",pages:2,year:2012,
-  desc:"A candid look at why HR is often not taken seriously, told through five snapshots from the author's career.",pdf:null,doi:null},
- {id:"naked-truth-2",date:"2012-02-01",type:"article",short:"Naked Truth, Part Two",
-  title:"Naked Truth About HR Revealed, Part Two: Recipe for Failure",
-  venue:"HR Future, February 2012, pp. 14–15",pages:2,year:2012,
-  desc:"Why HR practitioners so often stay inside the box, why top management shares the blame, and the questions every CEO should answer before judging the function. With stories from Egypt and Syria.",pdf:null,doi:null},
- {id:"seven-gates",date:"2026-08-01",type:"article",short:"The 7 Gates of HRM",
-  title:"The 7 Gates of HRM: A Strategic Framework for Transforming People Management",
-  venue:"HR Future, August 2026, pp. 16–18",pages:3,year:2026,
-  desc:"A framework that treats HR as a journey through seven gates: strategy, talent, learning, performance, rewards, culture and digital intelligence. Each gate prepares the organization for the next.",pdf:null,doi:null},
- {id:"godfather",date:"2026-07-02",lines:["The Godfather Handbook","for HR Executives"],type:"book",short:"The Godfather Handbook for HR Executives",
-  title:"The Godfather Handbook for Human Resources Executives",
-  venue:"Book Rivers, 2026",pages:136,year:2026,
-  desc:"Inspired by the Godfather trilogy, a guide to power, loyalty, influence and judgment for the HR executive who intends to shape the organization rather than serve it. Foundations, six pillars, five cases and a closing code.",pdf:null,doi:null}
-];
 
-WORKS.forEach(w=>{w.cover=w.cover||"covers/"+w.id+".jpg"});
 const $=s=>document.querySelector(s);
-WORKS.sort((a,b)=>b.date.localeCompare(a.date));
-let filter="all",query="",selected=null;
+let WORKS=[],filter="all",query="",selected=null;
 const panel=document.createElement("section");
 panel.className="detail";panel.setAttribute("aria-live","polite");
 
@@ -245,7 +201,10 @@ $("#shelf").addEventListener("click",e=>{
 $("#q").addEventListener("input",e=>{query=e.target.value;render();});
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&selected){selected=null;sync();}});
 window.addEventListener("resize",()=>{if(selected)placePanel();});
-render();
+fetch("works.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
+  WORKS=d;WORKS.forEach(w=>{w.cover=w.cover||"covers/"+w.id+".jpg"});
+  WORKS.sort((a,b)=>b.date.localeCompare(a.date));render();
+}).catch(()=>{$("#status").textContent="The library could not be loaded. Please refresh the page.";});
 </script>
 </body>
 </html>

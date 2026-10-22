@@ -1,0 +1,195 @@
+[
+ {
+  "id": "sacred-text",
+  "date": "2026-09-22",
+  "type": "paper",
+  "short": "From Sacred Text to Statute",
+  "title": "From Sacred Text to Statute: Human Resource Management Principles Across Religious Traditions, Cultural Norms, and the Code of Hammurabi",
+  "venue": "World Journal of Advanced Research and Reviews, 31(03), pp. 1430–1436",
+  "pages": 7,
+  "year": 2026,
+  "desc": "Compares people-management principles in the Code of Hammurabi and in Jewish, Christian, Islamic, Buddhist, Indic and Chinese traditions across seven dimensions, and finds a shared ethical core.",
+  "pdf": "pdfs/WJARR-2026-2459.pdf",
+  "doi": "https://doi.org/10.30574/wjarr.2026.31.3.2459"
+ },
+ {
+  "id": "jed",
+  "date": "2026-09-15",
+  "type": "paper",
+  "short": "Job Effectiveness Description",
+  "title": "The Job Effectiveness Description: A Conceptual Framework Integrating Key Behavioral, Operational, and Performance Indicators into the Traditional Job Description",
+  "venue": "World Journal of Advanced Research and Reviews, 31(03), pp. 953–958",
+  "pages": 6,
+  "year": 2026,
+  "desc": "Proposes a job description that carries three kinds of indicators in one document: how the person acts, how the work runs, and what results it produces.",
+  "pdf": "pdfs/WJARR-2026-2281.pdf",
+  "doi": "https://doi.org/10.30574/wjarr.2026.31.3.2281"
+ },
+ {
+  "id": "post-crisis-hr",
+  "date": "2026-08-25",
+  "type": "paper",
+  "short": "HR in the Post-Crisis Middle East",
+  "title": "Critical Roles of Human Resource Management in Transforming and Adapting Organizations in the Post-Crisis Middle East",
+  "venue": "World Journal of Advanced Research and Reviews, 31(02), pp. 1167–1176",
+  "pages": 10,
+  "year": 2026,
+  "desc": "Sets out seventeen roles HR must play when organizations are rebuilt after conflict and disruption, and proposes the HR RESET framework, drawing on Syria, Lebanon, Iraq and the Gulf states.",
+  "pdf": "pdfs/WJARR-2026-2210.pdf",
+  "doi": "https://doi.org/10.30574/wjarr.2026.31.2.2210"
+ },
+ {
+  "id": "ai-culture",
+  "date": "2026-08-20",
+  "type": "paper",
+  "short": "AI and Culture in the Gulf",
+  "title": "The Future Impact of Artificial Intelligence and Digital Transformation on Organizational Culture",
+  "venue": "World Journal of Advanced Research and Reviews, 31(02), pp. 985–995",
+  "pages": 11,
+  "year": 2026,
+  "desc": "How AI and digital transformation reshape organizational culture, with evidence from Saudi Arabia, the UAE and the wider Gulf. Argues that cultural change is a prerequisite of successful AI adoption, not a by-product.",
+  "pdf": "pdfs/WJARR-2026-2163.pdf",
+  "doi": "https://doi.org/10.30574/wjarr.2026.31.2.2163"
+ },
+ {
+  "id": "seven-gates",
+  "date": "2026-08-01",
+  "type": "article",
+  "short": "The 7 Gates of HRM",
+  "title": "The 7 Gates of HRM: A Strategic Framework for Transforming People Management",
+  "venue": "HR Future, August 2026, pp. 16–18",
+  "pages": 3,
+  "year": 2026,
+  "desc": "A framework that treats HR as a journey through seven gates: strategy, talent, learning, performance, rewards, culture and digital intelligence. Each gate prepares the organization for the next.",
+  "pdf": null,
+  "doi": null
+ },
+ {
+  "id": "godfather",
+  "date": "2026-07-02",
+  "lines": [
+   "The Godfather Handbook",
+   "for HR Executives"
+  ],
+  "type": "book",
+  "short": "The Godfather Handbook for HR Executives",
+  "title": "The Godfather Handbook for Human Resources Executives",
+  "venue": "Book Rivers, 2026",
+  "pages": 136,
+  "year": 2026,
+  "desc": "Inspired by the Godfather trilogy, a guide to power, loyalty, influence and judgment for the HR executive who intends to shape the organization rather than serve it. Foundations, six pillars, five cases and a closing code.",
+  "pdf": "pdfs/The_Godfather_Handbook_2nd_July_2026__EBOOK.pdf",
+  "doi": null
+ },
+ {
+  "id": "nights-with-ancestors",
+  "type": "book",
+  "date": "2026-04-30",
+  "lines": [
+   "Nights with Ancestors",
+   "A Journey into the Past"
+  ],
+  "short": "Nights with Ancestors",
+  "title": "Nights with Ancestors: A Journey into the Past",
+  "venue": "Book Rivers, 2026",
+  "pages": 107,
+  "year": 2026,
+  "desc": "A journey into the past that asks what great figures would say about management and leadership today, with a chapter each on Drucker, Socrates, Marcus Aurelius, Maslow, Alexander the Great, Mary P. Follett, Salahuddin Ayyubi, Attila the Hun and Augustus.",
+  "pdf": "pdfs/M_Amr_Sadik_final_30_April_2026_ebook.pdf",
+  "doi": null
+ },
+ {
+  "id": "divine-comedy",
+  "date": "2026-01-01",
+  "lines": [
+   "The Divine Comedy",
+   "in People Management"
+  ],
+  "type": "book",
+  "short": "The Divine Comedy in People Management",
+  "title": "The Divine Comedy in People Management",
+  "venue": "ICERT, 2026",
+  "pages": 230,
+  "year": 2026,
+  "desc": "Reads people management through Dante Alighieri's Divine Comedy, for leaders who want to guide people, elevate purpose and pursue excellence.",
+  "pdf": "pdfs/Full_Book_Dr_M_Amr_Sadik.pdf",
+  "doi": null
+ },
+ {
+  "id": "measuring-what-matters",
+  "type": "book",
+  "date": "2025-10-04",
+  "lines": [
+   "Measuring What Matters",
+   "Most for Human Resources"
+  ],
+  "short": "Measuring What Matters Most for HR",
+  "title": "Measuring What Matters Most for Human Resources: Key Performance Indicators and Key Operational Indicators",
+  "venue": "Book Rivers, 2025",
+  "pages": 172,
+  "year": 2025,
+  "desc": "A practical guide to measuring HR with key performance and key operational indicators, from building a data-driven HR culture to talent acquisition, engagement, retention, learning and performance management.",
+  "pdf": "pdfs/EBOOK_04_10_25.pdf",
+  "doi": null
+ },
+ {
+  "id": "art-of-war-hr",
+  "type": "book",
+  "date": "2024-04-10",
+  "lines": [
+   "The Art of War",
+   "Concise HR Applications"
+  ],
+  "short": "The Art of War for HR",
+  "title": "The Art of War: Concise Human Resources Applications",
+  "venue": "Book Rivers, 2024",
+  "pages": 124,
+  "year": 2024,
+  "desc": "Reads Sun Tzu's Art of War as a handbook for people management and turns it into ten principles, from staffing, culture and reward to change, appraisal and strategy, with takeaways for practitioners.",
+  "pdf": "pdfs/SADICK_10_4_24_-_Ebook.pdf",
+  "doi": null
+ },
+ {
+  "id": "black-holes-hrm",
+  "type": "book",
+  "date": "2024-03-01",
+  "lines": [
+   "The Black Holes",
+   "of HR Management"
+  ],
+  "short": "The Black Holes of HR Management",
+  "title": "The Black Holes of Human Resources Management",
+  "venue": "Book Rivers, 2024",
+  "pages": 160,
+  "year": 2024,
+  "desc": "A frank look at why HR fails and where it quietly loses value: eleven “black holes” from recruitment and appraisal to measurement and succession planning, plus the case for earning a seat at the table.",
+  "pdf": "pdfs/The_Black_Holes_of_HRM.pdf",
+  "doi": null
+ },
+ {
+  "id": "naked-truth-2",
+  "date": "2012-02-01",
+  "type": "article",
+  "short": "Naked Truth, Part Two",
+  "title": "Naked Truth About HR Revealed, Part Two: Recipe for Failure",
+  "venue": "HR Future, February 2012, pp. 14–15",
+  "pages": 2,
+  "year": 2012,
+  "desc": "Why HR practitioners so often stay inside the box, why top management shares the blame, and the questions every CEO should answer before judging the function. With stories from Egypt and Syria.",
+  "pdf": null,
+  "doi": null
+ },
+ {
+  "id": "naked-truth",
+  "date": "2012-01-01",
+  "type": "article",
+  "short": "Naked Truth, Part One",
+  "title": "Naked Truth About HR Revealed, Part One: Do We Really Hate HR?",
+  "venue": "HR Future, January 2012, pp. 16–17",
+  "pages": 2,
+  "year": 2012,
+  "desc": "A candid look at why HR is often not taken seriously, told through five snapshots from the author's career.",
+  "pdf": null,
+  "doi": null
+ }
+]
