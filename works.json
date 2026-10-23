@@ -61,7 +61,7 @@
   "pages": 3,
   "year": 2026,
   "desc": "A framework that treats HR as a journey through seven gates: strategy, talent, learning, performance, rewards, culture and digital intelligence. Each gate prepares the organization for the next.",
-  "pdf": null,
+  "pdf": "pdfs/hrfuture-2026-08-seven-gates-of-hrm.pdf",
   "doi": null
  },
  {
@@ -78,7 +78,7 @@
   "pages": 136,
   "year": 2026,
   "desc": "Inspired by the Godfather trilogy, a guide to power, loyalty, influence and judgment for the HR executive who intends to shape the organization rather than serve it. Foundations, six pillars, five cases and a closing code.",
-  "pdf": "pdfs/The_Godfather_Handbook_2nd_July_2026__EBOOK.pdf",
+  "pdf": "pdfs/book-2026-godfather-handbook-for-hr-executives.pdf",
   "doi": null
  },
  {
@@ -95,7 +95,7 @@
   "pages": 107,
   "year": 2026,
   "desc": "A journey into the past that asks what great figures would say about management and leadership today, with a chapter each on Drucker, Socrates, Marcus Aurelius, Maslow, Alexander the Great, Mary P. Follett, Salahuddin Ayyubi, Attila the Hun and Augustus.",
-  "pdf": "pdfs/M_Amr_Sadik_final_30_April_2026_ebook.pdf",
+  "pdf": "pdfs/book-2026-nights-with-ancestors.pdf",
   "doi": null
  },
  {
@@ -112,7 +112,7 @@
   "pages": 230,
   "year": 2026,
   "desc": "Reads people management through Dante Alighieri's Divine Comedy, for leaders who want to guide people, elevate purpose and pursue excellence.",
-  "pdf": "pdfs/Full_Book_Dr_M_Amr_Sadik.pdf",
+  "pdf": "pdfs/book-2026-divine-comedy-in-people-management.pdf",
   "doi": null
  },
  {
@@ -129,7 +129,7 @@
   "pages": 172,
   "year": 2025,
   "desc": "A practical guide to measuring HR with key performance and key operational indicators, from building a data-driven HR culture to talent acquisition, engagement, retention, learning and performance management.",
-  "pdf": "pdfs/EBOOK_04_10_25.pdf",
+  "pdf": "pdfs/book-2025-measuring-what-matters-most.pdf",
   "doi": null
  },
  {
@@ -146,7 +146,7 @@
   "pages": 124,
   "year": 2024,
   "desc": "Reads Sun Tzu's Art of War as a handbook for people management and turns it into ten principles, from staffing, culture and reward to change, appraisal and strategy, with takeaways for practitioners.",
-  "pdf": "pdfs/SADICK_10_4_24_-_Ebook.pdf",
+  "pdf": "pdfs/book-2024-art-of-war-hr-applications.pdf",
   "doi": null
  },
  {
@@ -163,7 +163,111 @@
   "pages": 160,
   "year": 2024,
   "desc": "A frank look at why HR fails and where it quietly loses value: eleven “black holes” from recruitment and appraisal to measurement and succession planning, plus the case for earning a seat at the table.",
-  "pdf": "pdfs/The_Black_Holes_of_HRM.pdf",
+  "pdf": "pdfs/book-2024-black-holes-of-hrm.pdf",
+  "doi": null
+ },
+ {
+  "id": "overqualified",
+  "type": "article",
+  "date": "2014-11-01",
+  "short": "“Overqualified” Is a Nonsense Term",
+  "title": "“Overqualified” Is a Nonsense Term",
+  "venue": "HR Future, November 2014, pp. 16–18",
+  "pages": 3,
+  "year": 2014,
+  "desc": "Argues that rejecting strong candidates as “overqualified” is a costly myth, and that the shortage of talent is often a failure of the employer’s own thinking. Makes the case for hiring the best and training where gaps remain.",
+  "pdf": "pdfs/hrfuture-2014-11-overqualified.pdf",
+  "doi": null
+ },
+ {
+  "id": "training-myopia",
+  "type": "article",
+  "date": "2014-09-01",
+  "short": "Prevent Training Myopia",
+  "title": "Prevent Training Myopia in Your Company",
+  "venue": "HR Future, September 2014, pp. 10–11",
+  "pages": 2,
+  "year": 2014,
+  "desc": "Why organizations cut training first when times are hard, and how to treat it as a strategic tool instead. Describes the proactive, active and reactive views of the training function.",
+  "pdf": "pdfs/hrfuture-2014-09-training-myopia.pdf",
+  "doi": null
+ },
+ {
+  "id": "strategist-2",
+  "type": "article",
+  "date": "2014-08-01",
+  "short": "HR Strategist or Tactician, Part Two",
+  "title": "HR Strategist or Tactician? Part Two",
+  "venue": "HR Future, August 2014, pp. 14–15",
+  "pages": 2,
+  "year": 2014,
+  "desc": "What being strategic really means, with a story of opening luxury villas without staff and a plan that cut expatriates by a quarter, and three places to start: productivity, competitive advantage and employer brand.",
+  "pdf": "pdfs/hrfuture-2014-08-hr-strategist-part-2.pdf",
+  "doi": null
+ },
+ {
+  "id": "strategist-1",
+  "type": "article",
+  "date": "2014-07-01",
+  "short": "HR Strategist or Tactician, Part One",
+  "title": "HR Strategist or Tactician? Part One",
+  "venue": "HR Future, July 2014, pp. 20–21",
+  "pages": 2,
+  "year": 2014,
+  "desc": "Separates being strategic from being a strategic partner, through stories of HR managers who claimed a strategic role they could not explain, and describes the transactional, tactical and strategic hats HR wears.",
+  "pdf": "pdfs/hrfuture-2014-07-hr-strategist-part-1.pdf",
+  "doi": null
+ },
+ {
+  "id": "excluded",
+  "type": "article",
+  "date": "2014-06-01",
+  "short": "Do You Feel Like Mr/Mrs Excluded?",
+  "title": "Do You Feel Like Mr/Mrs Excluded?",
+  "venue": "HR Future, June 2014, pp. 16–17",
+  "pages": 2,
+  "year": 2014,
+  "desc": "Three situations in which HR is left out of the decisions that matter, from opening a new branch to setting annual goals, and a call for top management to see the function from the inside.",
+  "pdf": "pdfs/hrfuture-2014-06-mr-mrs-excluded.pdf",
+  "doi": null
+ },
+ {
+  "id": "trying-times-2",
+  "type": "article",
+  "date": "2014-05-01",
+  "short": "Managing HR in Trying Times, Part Two",
+  "title": "Managing HR in Trying Times, Part Two",
+  "venue": "HR Future, May 2014, pp. 24–25",
+  "pages": 2,
+  "year": 2014,
+  "desc": "Practical guidance on downsizing: preparing people, protecting morale, leaving with respect, and a thirteen-step plan from the author’s own experience as a group CHRO in late 2008.",
+  "pdf": "pdfs/hrfuture-2014-05-trying-times-part-2.pdf",
+  "doi": null
+ },
+ {
+  "id": "trying-times-1",
+  "type": "article",
+  "date": "2014-04-01",
+  "short": "Managing HR in Trying Times, Part One",
+  "title": "Managing HR in Trying Times, Part One",
+  "venue": "HR Future, April 2014, pp. 28–29",
+  "pages": 2,
+  "year": 2014,
+  "desc": "How HR can step up when business is under pressure: the roles and rules of a downturn, keeping people committed, and why trying times are not only economic.",
+  "pdf": "pdfs/hrfuture-2014-04-trying-times-part-1.pdf",
+  "doi": null
+ },
+ {
+  "id": "retention",
+  "type": "article",
+  "date": "2014-01-01",
+  "short": "Retention: Keep or Weep",
+  "title": "When It Comes to Retention, It’s Keep or Weep",
+  "venue": "HR Future, January 2014, pp. 24–27",
+  "pages": 4,
+  "year": 2014,
+  "desc": "A guide to retention strategy: what really drives people to leave, the indicators that predict turnover, and six areas of focus, from competitive advantage to organizational development.",
+  "pdf": "pdfs/hrfuture-2014-01-retention-keep-or-weep.pdf",
   "doi": null
  },
  {
@@ -176,7 +280,7 @@
   "pages": 2,
   "year": 2012,
   "desc": "Why HR practitioners so often stay inside the box, why top management shares the blame, and the questions every CEO should answer before judging the function. With stories from Egypt and Syria.",
-  "pdf": null,
+  "pdf": "pdfs/hrfuture-2012-02-naked-truth-part-2.pdf",
   "doi": null
  },
  {
@@ -189,7 +293,7 @@
   "pages": 2,
   "year": 2012,
   "desc": "A candid look at why HR is often not taken seriously, told through five snapshots from the author's career.",
-  "pdf": null,
+  "pdf": "pdfs/hrfuture-2012-01-naked-truth-part-1.pdf",
   "doi": null
  }
 ]
