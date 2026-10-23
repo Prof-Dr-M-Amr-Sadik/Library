@@ -171,7 +171,7 @@ function renderChips(){
 }
 function fillPanel(w){
   const acts=[];
-  if(w.pdf)acts.push(`<a class="btn" href="${w.pdf}" download>Download PDF</a>`);
+  if(w.pdf)acts.push(`<a class="btn" href="${w.pdf}" target="_blank" rel="noopener">Read online</a>`,`<a class="btn ghost" href="${w.pdf}" download>Download PDF</a>`);
   if(w.doi)acts.push(`<a class="btn ghost" href="${w.doi}" target="_blank" rel="noopener">View on journal site</a>`);
   if(!w.pdf)acts.push(`<span class="btn off">PDF coming soon</span>`);
   panel.innerHTML=`<div class="plate book cover"><img src="${w.cover}" alt="Cover of ${w.title}"></div>
