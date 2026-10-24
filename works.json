@@ -1,5 +1,21 @@
 [
  {
+  "id": "defining-hr-csfs",
+  "type": "infographic",
+  "date": "2026-10-24",
+  "short": "Defining HR Critical Success Factors",
+  "title": "Defining HR Critical Success Factors",
+  "venue": "",
+  "pages": null,
+  "year": null,
+  "desc": "A one-page guide to defining HR critical success factors: eight steps from business strategy to stakeholder validation, how a CSF differs from a KPI and a target, and a worked example for the talent and leadership pipeline.",
+  "cover": "covers/defining-hr-csfs.webp",
+  "image": "infographics/defining-hr-csfs.webp",
+  "file": "infographics/defining-hr-csfs.png",
+  "pdf": null,
+  "doi": null
+ },
+ {
   "id": "sacred-text",
   "date": "2026-09-22",
   "type": "paper",
